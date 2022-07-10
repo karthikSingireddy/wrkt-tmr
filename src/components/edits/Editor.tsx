@@ -7,9 +7,6 @@ import EditPanel from './EditPanel';
 import { exercisesValue, restValue, roundRestValue, roundsValue, workValue } from '../../state/time';
 
 export default function Editor() {
-  const [value, setValue] = useState('');
-  const { speak } = useSpeechSynthesis();
-
   return <div className='container'>
     <Time />
     <StartButton />
