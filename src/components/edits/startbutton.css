@@ -1,0 +1,12 @@
+.start-button {
+ display: flex;
+ margin: 5px 5px;
+ border-radius: 7px;
+ background-color: lightblue;
+ justify-content: center;
+ align-content: center;
+}
+
+.start-button > p {
+  font-size: large;
+}

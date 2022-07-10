@@ -1,0 +1,12 @@
+.box {
+  display: flex;
+  height: 40%;
+  justify-content: center;
+  background-color: orangered;
+}
+
+.time-text {
+  font-size: 70px;
+  color: white;
+  align-self: center;
+}
