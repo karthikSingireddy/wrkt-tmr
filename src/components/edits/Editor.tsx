@@ -1,6 +1,4 @@
-import React, { useState } from 'react';
 import './editor.css'
-import { useSpeechSynthesis } from "react-speech-kit";
 import Time from './Time'
 import StartButton from './StartButton';
 import EditPanel from './EditPanel';
