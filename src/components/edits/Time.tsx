@@ -10,10 +10,9 @@ export default function Time() {
   const roundRest = useRecoilValue(roundRestValue);
 
   const time = ((((work + rest) * ex) + roundRest) * rounds) - roundRest;
-  console.log(time);
   const date = new Date(0);
   date.setSeconds(time);
-  let timeStr = date.toISOString().substr(11,8);
+  let timeStr = time >= 60 * 60 ? date.toISOString().substr(11,8) : date.toISOString().substr(14,5);
 
   return <div className="box">
     <h2 className='time-text'>{timeStr}</h2>
